@@ -13,5 +13,34 @@
     ],
     "createdAt": "2026-02-01T08:00:00.000Z",
     "updatedAt": "2026-02-01T08:00:00.000Z"
+  },
+  {
+    "_id": {"$oid": "648000000000000000000011"},
+    "name": "Moonlight Residence",
+    "code": "MOON-01",
+    "address": "25 Le Loi, District 3, HCM",
+    "manager": null,
+    "status": "active",
+    "description": "Modern apartment building near the city center.",
+    "rooms": [
+      {"$oid": "648000000000000000000102"},
+      {"$oid": "648000000000000000000103"}
+    ],
+    "createdAt": "2026-03-10T09:30:00.000Z",
+    "updatedAt": "2026-03-10T09:30:00.000Z"
+  },
+  {
+    "_id": {"$oid": "648000000000000000000012"},
+    "name": "Riverside Tower",
+    "code": "RIVER-01",
+    "address": "77 Nguyen Trai, District 5, HCM",
+    "manager": null,
+    "status": "maintenance",
+    "description": "Large tower with river view, currently under maintenance.",
+    "rooms": [
+      {"$oid": "648000000000000000000104"}
+    ],
+    "createdAt": "2026-04-05T14:15:00.000Z",
+    "updatedAt": "2026-06-01T10:00:00.000Z"
   }
 ]
