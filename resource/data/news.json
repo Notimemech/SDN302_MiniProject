@@ -1,0 +1,12 @@
+[
+  {
+    "_id": {"$oid": "648000000000000000000600"},
+    "title": "Thông báo nghỉ lễ",
+    "content": "Tòa nhà sẽ nghỉ lễ vào ngày 30/04 và 01/05.",
+    "author": {"$oid": "648000000000000000000002"},
+    "status": "published",
+    "publishedAt": "2026-04-20T08:00:00.000Z",
+    "createdAt": "2026-04-20T08:00:00.000Z",
+    "updatedAt": "2026-04-20T08:00:00.000Z"
+  }
+]

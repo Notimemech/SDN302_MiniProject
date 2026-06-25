@@ -1,0 +1,50 @@
+[
+  {
+    "_id": {"$oid": "648000000000000000000001"},
+    "name": "Admin System",
+    "email": "admin@example.com",
+    "password": "hashed_password_admin",
+    "role": "admin",
+    "phone": "0123456789",
+    "status": "active",
+    "profile": {
+      "gender": "male",
+      "address": "123 Admin Street",
+      "birthday": "1985-01-01T00:00:00.000Z"
+    },
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": {"$oid": "648000000000000000000002"},
+    "name": "Manager Minh",
+    "email": "manager@example.com",
+    "password": "hashed_password_manager",
+    "role": "manager",
+    "phone": "0987654321",
+    "status": "active",
+    "profile": {
+      "gender": "female",
+      "address": "456 Manager Road",
+      "birthday": "1990-05-15T00:00:00.000Z"
+    },
+    "createdAt": "2026-01-02T00:00:00.000Z",
+    "updatedAt": "2026-01-02T00:00:00.000Z"
+  },
+  {
+    "_id": {"$oid": "648000000000000000000003"},
+    "name": "Renter An",
+    "email": "renter@example.com",
+    "password": "hashed_password_renter",
+    "role": "renter",
+    "phone": "0911222333",
+    "status": "active",
+    "profile": {
+      "gender": "male",
+      "address": "789 Renter Lane",
+      "birthday": "1998-09-09T00:00:00.000Z"
+    },
+    "createdAt": "2026-01-03T00:00:00.000Z",
+    "updatedAt": "2026-01-03T00:00:00.000Z"
+  }
+]

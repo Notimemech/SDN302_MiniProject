@@ -1,0 +1,17 @@
+[
+  {
+    "_id": {"$oid": "648000000000000000000010"},
+    "name": "Sunrise Building",
+    "code": "SUN-01",
+    "address": "101 Nguyen Hue, District 1, HCM",
+    "manager": {"$oid": "648000000000000000000002"},
+    "status": "active",
+    "description": "Residential building with 20 rooms and parking.",
+    "rooms": [
+      {"$oid": "648000000000000000000100"},
+      {"$oid": "648000000000000000000101"}
+    ],
+    "createdAt": "2026-02-01T08:00:00.000Z",
+    "updatedAt": "2026-02-01T08:00:00.000Z"
+  }
+]

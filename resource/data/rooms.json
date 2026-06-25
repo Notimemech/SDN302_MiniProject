@@ -1,0 +1,24 @@
+[
+  {
+    "_id": {"$oid": "648000000000000000000100"},
+    "house": {"$oid": "648000000000000000000010"},
+    "roomNumber": "101",
+    "title": "Phòng đôi thoáng mát",
+    "description": "Phòng 2 giường, đầy đủ tiện nghi.",
+    "floor": "1",
+    "price": 4500000,
+    "status": "occupied",
+    "currentRenter": {"$oid": "648000000000000000000003"},
+    "members": [
+      {"$oid": "648000000000000000000200"}
+    ],
+    "equipment": [
+      {"$oid": "648000000000000000000300"}
+    ],
+    "serviceFees": [
+      {"$oid": "648000000000000000000400"}
+    ],
+    "createdAt": "2026-02-01T09:00:00.000Z",
+    "updatedAt": "2026-02-01T09:00:00.000Z"
+  }
+]
