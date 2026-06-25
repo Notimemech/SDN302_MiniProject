@@ -20,5 +20,59 @@
     ],
     "createdAt": "2026-02-01T09:00:00.000Z",
     "updatedAt": "2026-02-01T09:00:00.000Z"
+  },
+  {
+    "_id": {"$oid": "648000000000000000000101"},
+    "house": {"$oid": "648000000000000000000011"},
+    "roomNumber": "201",
+    "title": "Phòng đơn tiện nghi",
+    "description": "Phòng 1 giường, phù hợp cho thuê ngắn hạn.",
+    "floor": "2",
+    "price": 3200000,
+    "status": "available",
+    "currentRenter": null,
+    "members": [],
+    "equipment": [
+      {"$oid": "648000000000000000000301"}
+    ],
+    "serviceFees": [],
+    "createdAt": "2026-03-12T11:20:00.000Z",
+    "updatedAt": "2026-03-12T11:20:00.000Z"
+  },
+  {
+    "_id": {"$oid": "648000000000000000000102"},
+    "house": {"$oid": "648000000000000000000011"},
+    "roomNumber": "202",
+    "title": "Phòng đôi có ban công",
+    "description": "Phòng 2 giường với ban công hướng Đông.",
+    "floor": "2",
+    "price": 4800000,
+    "status": "available",
+    "currentRenter": null,
+    "members": [],
+    "equipment": [
+      {"$oid": "648000000000000000000302"}
+    ],
+    "serviceFees": [],
+    "createdAt": "2026-03-12T11:30:00.000Z",
+    "updatedAt": "2026-03-12T11:30:00.000Z"
+  },
+  {
+    "_id": {"$oid": "648000000000000000000103"},
+    "house": {"$oid": "648000000000000000000012"},
+    "roomNumber": "301",
+    "title": "Studio gần sông",
+    "description": "Studio nhỏ, phù hợp cho cặp đôi.",
+    "floor": "3",
+    "price": 3900000,
+    "status": "maintenance",
+    "currentRenter": null,
+    "members": [],
+    "equipment": [
+      {"$oid": "648000000000000000000303"}
+    ],
+    "serviceFees": [],
+    "createdAt": "2026-04-06T10:00:00.000Z",
+    "updatedAt": "2026-04-06T10:00:00.000Z"
   }
 ]
